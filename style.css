@@ -11,6 +11,8 @@ body {
   min-height: 100vh;
   height: auto;
   /* background: linear-gradient(to right bottom, #00b4db, #0083b0); */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./raingradient.jpg); */
   background: linear-gradient(to right bottom, #000046, #1cb5e0);
   display: flex;
   flex-direction: column;
@@ -68,7 +70,7 @@ body {
 .description {
   width: 100px;
   height: 100px;
-  font-size: 2rem;
+  font-size: 1.8em;
   color: white;
 }
 .feelsLike {
@@ -227,7 +229,7 @@ body {
   .description {
     width: 90px;
     height: 90px;
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
   .feelsLike {
     font-size: 1.2rem;
@@ -240,6 +242,7 @@ body {
   .description {
     width: 70px;
     height: 70px;
+    font-size: 1.2em;
   }
   .conditionImg {
     width: 9.2em;
@@ -261,7 +264,7 @@ body {
     width: 9em;
   }
   .description {
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
   .feelsLike {
     font-size: 1rem;
